@@ -1,0 +1,26 @@
+{
+  "name": "tips.alexpriscariu.dev",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && echo 'tips.alexprisacariu.dev' > docs/CNAME && cp src/index.html docs/index.html"
+  },
+  "author": "Alexandru Prisacariu",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "solid-js": "^1.8.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "babel": "^6.23.0",
+    "babel-preset-solid": "^1.8.2",
+    "rollup": "^3.29.4",
+    "rollup-preset-solid": "^2.0.1",
+    "typescript": "^5.2.2"
+  }
+}
